@@ -1,24 +1,42 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home page</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-</head>
-<body>
-    <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
-        <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none">
-            <span class="fs-4">Project Laravel</span>
-        </a>
+@extends('layout')
 
-        <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
-            <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="/">Home</a>
-            <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="/about">About</a>
-        </nav>
-        <a class="btn btn-warning" href="/review">Review</a>
-    </div>
-</body>
-</html>
+@section('title')Home page
+@endsection
+
+@section('main_content')
+    <main role="main">
+
+        <div class="jumbotron bg-warning">
+            <div class="container">
+                <h1 class="display-3">Home page</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci aliquid atque beatae dolorem ducimus fuga, saepe totam ullam voluptatibus?</p>
+                <p><a class="btn btn-danger btn-lg" href="#" role="button">Review </a></p>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>Heading</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto delectus id in obcaecati optio praesentium quas quis reiciendis unde.</p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View details</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Heading</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci eius laudantium magni odio quaerat quod rem tempora. Aperiam, deserunt maxime.</p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View details</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Heading</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate dolorem dolorum explicabo incidunt inventore quae ratione recusandae repellat rerum sequi!</p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View details</a></p>
+                </div>
+            </div>
+
+            <hr>
+
+        </div>
+
+    </main>
+@endsection
