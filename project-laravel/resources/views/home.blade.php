@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title')Home page
+@section('title')Home Page
 @endsection
 
 @section('main_content')

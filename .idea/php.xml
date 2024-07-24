@@ -130,6 +130,14 @@
       <path value="$PROJECT_DIR$/project-laravel/vendor/vlucas/phpdotenv" />
       <path value="$PROJECT_DIR$/project-laravel/vendor/voku/portable-ascii" />
       <path value="$PROJECT_DIR$/project-laravel/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/project-laravel/vendor/mobiledetect/mobiledetectlib" />
+      <path value="$PROJECT_DIR$/project-laravel/vendor/laravel/fortify" />
+      <path value="$PROJECT_DIR$/project-laravel/vendor/laravel/jetstream" />
+      <path value="$PROJECT_DIR$/project-laravel/vendor/livewire/livewire" />
+      <path value="$PROJECT_DIR$/project-laravel/vendor/dasprid/enum" />
+      <path value="$PROJECT_DIR$/project-laravel/vendor/pragmarx/google2fa" />
+      <path value="$PROJECT_DIR$/project-laravel/vendor/paragonie/constant_time_encoding" />
+      <path value="$PROJECT_DIR$/project-laravel/vendor/bacon/bacon-qr-code" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.1">
