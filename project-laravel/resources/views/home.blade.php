@@ -10,7 +10,7 @@
             <div class="container">
                 <h1 class="display-3">Home page</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci aliquid atque beatae dolorem ducimus fuga, saepe totam ullam voluptatibus?</p>
-                <p><a class="btn btn-danger btn-lg" href="/review" role="button">Review </a></p>
+                <p><a class="btn btn-primary" href="/review" role="button">Review </a></p>
             </div>
         </div>
 
