@@ -9,17 +9,32 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
 </head>
 <body>
-<div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+<header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
     <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none">
         <span class="fs-4">Project Laravel</span>
     </a>
 
-    <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
-        <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="/">Home</a>
-        <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="/about">About</a>
+    <nav class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+        <a class="nav-link px-3" href="/">Home</a>
+        <a class="nav-link px-3" href="/about">About</a>
+        <a class="btn btn-primary" href="/review">Review</a>
     </nav>
-    <a class="btn btn-warning" href="/review">Review</a>
-</div>
+
+    @if (Route::has('login'))
+        <div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10">
+            @auth
+                <a href="{{ route('/') }}" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Home</a>
+            @else
+                <a href="{{ route('login') }}" class="btn btn-outline-primary me-2">Log in</a>
+
+                @if (Route::has('register'))
+                    <a href="{{ route('register') }}" class="btn btn-primary">Register</a>
+                @endif
+            @endauth
+        </div>
+    @endif
+
+</header>
 <div class="container">
     @yield('main_content')
 </div>
