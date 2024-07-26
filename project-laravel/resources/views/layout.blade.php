@@ -11,7 +11,7 @@
 <body>
 <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
     <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none">
-        <span class="fs-4">Project Laravel</span>
+        <span class="display-6 fst-italic">Project Laravel</span>
     </a>
 
     <nav class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
