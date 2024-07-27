@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
 </head>
 <body>
-<header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+<header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom navbar-dark bg-dark">
     <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none">
-        <span class="display-6 fst-italic">Project Laravel</span>
+        <span class="fst-italic navbar-brand">Project Laravel</span>
     </a>
 
     <nav class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
