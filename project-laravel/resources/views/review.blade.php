@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title')Review
+@section('title')Project Laravel
 @endsection
 
 @section('main_content')

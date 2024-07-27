@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title')Page about
+@section('title')Project Laravel
 @endsection
 
 
