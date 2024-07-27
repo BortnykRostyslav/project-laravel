@@ -21,7 +21,7 @@
         <input type="email" name="email" id="email" placeholder="Input your email" class="form-control"><br>
         <input type="text" name="subject" id="subject" placeholder="Input your review" class="form-control"><br>
         <textarea name="message" id="message" class="form-control" placeholder="Input message"></textarea><br>
-        <button type="submit" class="btn btn-success">Send</button>
+        <button type="submit" class="btn btn-primary">Send</button>
     </form>
     <br>
     <h1>All review</h1>
