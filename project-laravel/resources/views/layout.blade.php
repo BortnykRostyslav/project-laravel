@@ -17,13 +17,13 @@
     <nav class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
         <a class="nav-link px-3" href="/">Home</a>
         <a class="nav-link px-3" href="/about">About</a>
-        <a class="btn btn-primary" href="/review">Review</a>
+        <a class="btn btn-outline-primary me-2" href="/review">Review</a>
     </nav>
 
     @if (Route::has('login'))
         <div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10">
             @auth
-                <a href="{{ route('/') }}" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Home</a>
+                <a href='/user/profile' class="btn btn-primary">Profile</a>
             @else
                 <a href="{{ route('login') }}" class="btn btn-outline-primary me-2">Log in</a>
 
