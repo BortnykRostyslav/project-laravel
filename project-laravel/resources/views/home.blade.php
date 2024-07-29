@@ -1,5 +1,4 @@
 @extends('layout')
-
 @section('title')Project Laravel
 @endsection
 

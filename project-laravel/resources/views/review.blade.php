@@ -4,7 +4,7 @@
 @endsection
 
 @section('main_content')
-    <h1>Form for adding a review</h1>
+    <h1 class="display-4 fst-italic">Form for adding a review</h1>
 
     @if($errors->any())
         <div class="alert alert-danger">
@@ -24,7 +24,7 @@
         <button type="submit" class="btn btn-primary">Send</button>
     </form>
     <br>
-    <h1>All review</h1>
+    <h1 class="display-4 fst-italic">All review</h1>
     @foreach($reviews as $el)
         <div class="alert alert-warning">
             <h3>{{ $el->subject}}</h3>
