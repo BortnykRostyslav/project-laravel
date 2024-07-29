@@ -20,7 +20,6 @@ Route::get('/review', [MainController::class, 'review'])->name('review');
 Route::post('/review/check', [MainController::class, 'review_check'])->name('review_check');
 
 
-
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
