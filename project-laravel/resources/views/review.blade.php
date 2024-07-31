@@ -32,4 +32,7 @@
             <p>{{ $el->message }}</p>
         </div>
     @endforeach
+    <div>
+        <a class="btn btn-primary" href="/" role="button">Home</a>
+    </div>
 @endsection

@@ -21,8 +21,8 @@
                     <p><a class="btn btn-primary"  href="/review" role="button">View details</a></p>
                 </div>
                 <div class="col-md-4">
-                    <h2 class="mt-5">About</h2>
-                    <p class="lead my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci eius laudantium magni odio quaerat quod rem tempora. Aperiam, deserunt maxime.</p>
+                    <h2 class="mt-5">About us</h2>
+                    <p class="lead my-3">Welcome to our community!</p>
                     <p><a class="btn btn-primary" href="/about" role="button">View details</a></p>
                 </div>
                 <div class="col-md-4">
