@@ -16,6 +16,7 @@ use App\Http\Controllers\MainController;
 
 Route::get('/', [MainController::class, 'home'])->name('home');
 Route::get('/about', [MainController::class, 'about'])->name('about');
+Route::get('/surprise', [MainController::class, 'surprise'])->name('surprise');
 Route::get('/review', [MainController::class, 'review'])->name('review');
 Route::post('/review/check', [MainController::class, 'review_check'])->name('review_check');
 

@@ -26,9 +26,9 @@
                     <p><a class="btn btn-primary" href="/about" role="button">View details</a></p>
                 </div>
                 <div class="col-md-4">
-                    <h2 class="mt-5">Heading</h2>
-                    <p class="lead my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate dolorem dolorum explicabo incidunt inventore quae ratione recusandae repellat rerum sequi!</p>
-                    <p><a class="btn btn-primary" href="#" role="button">View details</a></p>
+                    <h2 class="mt-5">?</h2>
+                    <p class="lead my-3">?</p>
+                    <p><a class="btn btn-primary" href="/surprise" role="button">View details</a></p>
                 </div>
             </div>
 

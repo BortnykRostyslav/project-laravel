@@ -15,6 +15,10 @@ class MainController extends Controller
         return view('about');
     }
 
+    public function surprise(){
+        return view('surprise');
+    }
+
     public function review(){
         $reviews = new Contact();
         return view('review', ['reviews' => $reviews->all()]);
