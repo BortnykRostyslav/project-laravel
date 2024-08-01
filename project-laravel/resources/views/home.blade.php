@@ -17,7 +17,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <h2 class="mt-5">Review</h2>
-                    <p class="lead my-3">You can leave a review or read reviews from other users.</p>
+                    <p class="lead my-3">You can leave a review.</p>
                     <p><a class="btn btn-primary"  href="/review" role="button">View details</a></p>
                 </div>
                 <div class="col-md-4">
