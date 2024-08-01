@@ -17,6 +17,7 @@
     <nav class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
         <a class="nav-link px-3" href="/">Home</a>
         <a class="nav-link px-3" href="/about">About us</a>
+        <a class="nav-link px-3" href="/content">Content</a>
         <a class="btn btn-outline-primary me-2" href="/review">Review</a>
     </nav>
 

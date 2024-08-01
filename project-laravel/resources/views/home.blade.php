@@ -22,12 +22,12 @@
                 </div>
                 <div class="col-md-4">
                     <h2 class="mt-5">About us</h2>
-                    <p class="lead my-3">Welcome to our community!</p>
+                    <p class="lead my-3">Welcome to our community.</p>
                     <p><a class="btn btn-primary" href="/about" role="button">View details</a></p>
                 </div>
                 <div class="col-md-4">
                     <h2 class="mt-5">Сontent</h2>
-                    <p class="lead my-3">?</p>
+                    <p class="lead my-3">The following content will be presented here.</p>
                     <p><a class="btn btn-primary" href="/content" role="button">View details</a></p>
                 </div>
             </div>
