@@ -15,8 +15,8 @@ class MainController extends Controller
         return view('about');
     }
 
-    public function surprise(){
-        return view('surprise');
+    public function content(){
+        return view('content');
     }
 
     public function review(){

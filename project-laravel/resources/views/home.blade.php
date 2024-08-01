@@ -26,9 +26,9 @@
                     <p><a class="btn btn-primary" href="/about" role="button">View details</a></p>
                 </div>
                 <div class="col-md-4">
-                    <h2 class="mt-5">?</h2>
+                    <h2 class="mt-5">Сontent</h2>
                     <p class="lead my-3">?</p>
-                    <p><a class="btn btn-primary" href="/surprise" role="button">View details</a></p>
+                    <p><a class="btn btn-primary" href="/content" role="button">View details</a></p>
                 </div>
             </div>
 
